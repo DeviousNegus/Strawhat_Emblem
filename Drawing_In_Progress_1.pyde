@@ -28,4 +28,3 @@ fill(255,255,255)
 arc(500, 630, 450, 450, 0, PI) # Bottom Half of Skull
 
 arc(500, 625, 340, 340, 0, PI, CHORD)
-strokeWeight(10)
