@@ -1,7 +1,8 @@
 size(1000,1000)
 background(255,180,15)
 
-
+shrink = 150
+grow = 350
 
 ellipse(500, 430, 600, 600) # Top Half of Skull
 fill(0,0,0)
@@ -27,4 +28,6 @@ rect(200,100,600,130)# Top of Strawhat
 fill(255,255,255)
 arc(500, 630, 450, 450, 0, PI) # Bottom Half of Skull
 
+
 arc(500, 625, 340, 340, 0, PI, CHORD)
+strokeWeight(10)
